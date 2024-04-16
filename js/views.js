@@ -10,8 +10,8 @@
  fbq('init', '323321660426640');
  fbq('track', 'PageView');
 
-$("#about-author .owl-item.cloned").each(
+$("#about-author .owl-stage-outer.owl-stage.owl-item.cloned").each(
   function () {
-      $(this).hide();
+      $(this).css({ opacity: 0 });
   }
 );
