@@ -10,7 +10,7 @@ $(document).ready(function () {
     fbq('init', '323321660426640');
     fbq('track', 'PageView');
   
-  $("#about-author .owl-item cloned").each(
+  $("#about-author .owl-item.cloned").each(
      function () {
          $(this).hide();
      }
